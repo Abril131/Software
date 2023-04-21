@@ -1,7 +1,8 @@
 import { Button } from "react-bootstrap";
 //Ya esta resposivo
 //igual aca lo alto no me da y margen 
-
+import Carousel from '../components/Carousel';
+import CardC from "../components/CarouselCard";
 function Home() {
     return ( 
         <>
@@ -98,6 +99,9 @@ function Home() {
                 </div>
             </div>
            </div>
+
+           <Carousel></Carousel>
+           <CardC></CardC>
         </div>
 
         </>
