@@ -3,15 +3,16 @@ import './App.css'
 import Header from './components/Header';
 //import Home from './pages/home';
 //import Procedimiento from './pages/Pocedimientos';
-import Aspirante from './pages/Aspirantes';
+//import Aspirante from './pages/Aspirantes';
 //import Testimonio from './pages/Testimonio';
-import Carousell from './components/Carousel';
+//import Carousell from './components/Carousel';
+import BolsaT from './pages/BolsaTrabajo';
 
 function App() {
   return (
     <>
     <Header/>
-       <Aspirante></Aspirante>
+       <BolsaT></BolsaT>
 
     </>
   )
