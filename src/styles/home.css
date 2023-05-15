@@ -1,0 +1,128 @@
+.home {
+    display: flex;
+    flex-direction: column;
+  }
+  .section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px; /* Agrega un padding horizontal para evitar que el texto quede pegado al borde */
+    background-color: #9CA5C4;
+  }
+  .section3 {
+    background-color: #9CA5C4;
+  }
+  
+
+  .section3-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+  }
+
+  .section3 h2 {
+    font-size: 4.5rem; /* Aumenta el tamaño de fuente del título */
+    margin-bottom: 15px; /* Añade un margen inferior para separar el título del texto */
+  }
+  
+  .section3 p {
+    font-size: 3.25rem; /* Aumenta el tamaño de fuente del texto */
+    margin-bottom: 25px; /* Añade un margen inferior para separar el texto del botón */
+  }
+  
+  .section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .section2-content {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .section2-title {
+    color: #425692;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+
+  .section2,
+  .section4 {
+    background-color: white;
+  }
+  
+  .section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Cambia esto de flex-start a center para centrar el texto */
+    margin-right: 30px; /* Agrega un margen derecho para dar espacio entre el texto y la imagen */
+  }
+  
+  .image {
+    max-width: 50%; /* Ajusta este valor según las necesidades */
+    margin-left: 30px; /* Agrega un margen izquierdo para dar espacio entre la imagen y el texto */
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+.text-custom {
+  color: #6F7EAB;
+}
+
+.section4-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .galeria-img {
+    padding: 1rem;
+  }
+  
+  @media (max-width: 991px) {
+    .col-md-4 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .col-md-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  .galeria-img {
+    padding: 1rem;
+    border: 3px solid #1C2E4A; /* Cambia el color del borde aquí */
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .galeria-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+  }
