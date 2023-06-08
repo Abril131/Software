@@ -60,7 +60,7 @@ function Bolsa() {
               </ul>
             </div>
           </div>
-          <h1 className="m-4">Personalisa tu bolsa de trabajo</h1>
+          <h1 className="m-4">Personaliza tu bolsa de trabajo</h1>
 <div className="row row-cols-md-12 row-cols-sm-4">
     <div className="col-md-5 col-sm-4">
         <h4 className='text-left m-3'>Selecciona el área de trabajo:</h4>
